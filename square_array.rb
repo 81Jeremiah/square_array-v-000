@@ -1,5 +1,5 @@
-def square_array(array)
-  sq = []
-  narray.each{ |a| squarred a ** 2 }
-  return sq
+def square_array(numbers)
+    sq = []
+    numbers.each{|num| sq << num ** 2}
+    sq
 end
